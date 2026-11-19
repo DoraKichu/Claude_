@@ -2,29 +2,19 @@
 
 打開網頁：https://dorakichu.github.io/Claude_/
 
-一間等角視角的 3D 微縮辦公室，裡面有四間工作室：交易作戰室、投資人辦公室、製程班表工坊、遊戲休息區。中間是 Claude 核心。員工頭上的對話框會顯示他們現在在做什麼，網頁每分鐘自動更新一次。
+一間等角視角的 3D 微縮辦公室，裡面有四間工作室：交易作戰室、投資人辦公室、製程班表工坊、遊戲休息區，中間是 Claude 核心。交易專案的 12 位員工都坐在自己的位置上，頭上會顯示他們現在在做什麼，網頁每分鐘自動更新一次。
 
 ## 員工狀態怎麼來
 
-網頁會讀這個 repo 裡的 `status.json`。家裡電腦的交易系統把狀態寫進 `D:\trading-lab\hq_status.json`，再由 `tools/push_status.py` 推上來。
+家裡電腦 `D:\trading-lab\src\ops\hq_status.py` 每 5 分鐘執行一次。它會看每位員工的紀錄檔和產出檔是什麼時候更新的，判斷誰在工作、誰在待命、誰出狀況，再把結果寫進這個 repo 的 `status.json`。
 
-`hq_status.json` 的格式：
+| 狀態 | 顏色 | 意思 |
+|---|---|---|
+| working | 綠 | 工作中 |
+| meeting | 橘 | 開會中（諸葛亮的經營會議） |
+| idle | 灰 | 待命，會寫下次上班時間或待辦 |
+| error | 紅 | 出狀況，例如太久沒更新 |
 
-```json
-{
-  "staff": [
-    { "seat": "ceo",      "state": "meeting", "task": "主持會議：檢討今天的策略" },
-    { "seat": "whisper",  "state": "working", "task": "轉錄直播音檔" },
-    { "seat": "trader",   "state": "idle",    "task": "等待進場訊號" }
-  ]
-}
-```
+超過 2 小時沒有新狀態，網頁左上角會顯示「最後更新 X 小時前」。
 
-- `seat`（座位）：`ceo` `analyst` `risk` `strategy` `tech` `gemini` `whisper` `trader` `diaochan` `robot`
-- `state`（狀態）：`working` 工作中、`meeting` 開會中、`idle` 待命、`error` 出狀況
-- `task`：正在做的事，最多 60 個字
-- `name`：可省略，想讓員工換名字時才填
-
-狀態超過 2 小時沒更新，網頁左上角會顯示「最後更新 X 小時前」。
-
-注意：這個 repo 是公開的，`status.json` 任何人都看得到，`task` 裡不要寫金額、帳號或 API key。
+注意：這個 repo 是公開的，任何人都看得到 `status.json`。推送程式只送「誰、狀態、在做什麼」，並且會自動拿掉金額。

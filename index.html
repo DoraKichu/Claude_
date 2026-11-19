@@ -92,7 +92,7 @@ body.day #hint{color:rgba(43,33,25,.6)}
 .staff h3{margin:0 0 10px;font-size:14px}
 .staff div{display:flex;gap:8px;align-items:flex-start;font-size:12.5px;padding:6px 0;border-bottom:1px dashed var(--line)}
 .staff div i{width:8px;height:8px;border-radius:50%;margin-top:6px;flex:none}
-.staff div b{flex:none;width:86px}
+.staff div b{flex:none;width:118px}
 .staff div span{color:#4d4036;line-height:1.5}
 @media (max-width:760px){
   .bub{max-width:120px;font-size:10.5px;padding:4px 7px}
@@ -138,17 +138,17 @@ const $ = s => document.querySelector(s);
 const INFO = {
   trade:{color:'#f2a541',kicker:'ROOM 01',title:'交易作戰室',sub:'把 Sam 的心法，變成活得下來的模型',
     desc:'每週六 2140 Sam 的直播從這裡進來，一路被轉錄、分析、開會辯論，最後變成模擬倉的下單，再整理成一份完整報告。',
-    steps:[['2140 Sam 直播牆','每週六的加密分析直播，從最新一集開始讀'],
-           ['Whisper 轉錄機','家裡的 RTX 3070 Ti 把直播音檔轉成逐字稿'],
-           ['Gemini 分析桌','用 Gemini API 重讀直播，找出 Sam 每次的進場方式'],
-           ['CEO 每日會議','Claude 當 CEO，和員工辯論每個策略在哪裡有效、哪裡失效'],
-           ['TradingView 模擬倉','把 Sam 的六支腳本寫成策略，先在模擬倉跑'],
-           ['貂蟬 彙整報告','所有員工的結論，由貂蟬整理成一份完整報告']],
+    steps:[['直播牆 · 祝融夫人','每天 09:35／21:35 巡邏 YouTube，發現 Sam 的新直播'],
+           ['字幕機 · 蔡文姬','家裡的 RTX 3070 Ti 用 Whisper 把 313 集直播轉成逐字稿'],
+           ['Gemini 桌 · 甘夫人','用 Gemini 看直播畫面，抓出 Sam 標的價位'],
+           ['經營會議 · 諸葛亮','CEO 每天 11:37／17:37 開會，黃月英回測、甄姬拆招式、大喬對帳、星彩追表單'],
+           ['模擬倉 · 糜夫人＋孫尚香','每 4 小時跑 4 個模擬帳戶；每 5 分鐘盯 Sam 的價位'],
+           ['報告桌 · 貂蟬','每週日整理成一份完整週報，派下週工作']],
     tags:['生存第一','模擬倉先行','槓桿 2–3x','大賺小賠']},
   boss:{color:'#e86f55',kicker:'ROOM 02',title:'投資人辦公室',sub:'你是投資人，Claude 是 CEO',
     desc:'你不用盯盤。訂單紀錄每小時同步到牆上的儀表板，早晚各推播一次到手機，有任何和 Sam 方法不一樣的判斷都會回報。',
     steps:[['訂單儀表板','每小時同步一次下單紀錄'],
-           ['手機推播','每天 08:00 和 20:00 送出專案進度'],
+           ['手機推播 · 小喬','每天 08:00 和 20:00 把模擬倉成果推到手機'],
            ['只看一份報告','不看零散回報，只看貂蟬的完整整合版'],
            ['目標','可以賺錢、大賺小賠']],
     tags:['不用你二選一','CEO 自己判斷','有落差就回報']},
@@ -307,23 +307,25 @@ box(T,4.6,.5,.7,0x4a3426,-2.5,F,-5.0);
 box(T,4.5,2.6,.1,0x1d1712,-2.5,1.25,-6.08);
 add(T,new THREE.PlaneGeometry(4.2,2.4),screenMat(liveTex),-2.5,2.55,-6.02,false);
 box(T,.35,.9,.35,0x2b2b30,-5.0,F+.5,-5.0);box(T,.35,.9,.35,0x2b2b30,0,F+.5,-5.0);
-station('trade','① 2140 Sam 直播牆',-2.5,4.1,-5.6);
+station('trade','① 直播牆 · 祝融夫人',-2.5,4.5,-5.6);
 box(T,1.0,2.1,1.0,0x2a2e36,1.4,F,-4.7);
 for(let i=0;i<6;i++){const m=mat(0x2cff9a,{emissive:0x2cff9a,emissiveIntensity:1});blinkers.push(m);box(T,.6,.06,.02,m,1.4,F+.35+i*.28,-4.19).castShadow=false;}
-const wAnchor=new THREE.Object3D();wAnchor.position.set(1.4,0,-4.7);T.add(wAnchor);seat('whisper',wAnchor,2.45);
-station('trade','② Whisper 轉錄 · RTX 3070 Ti',1.4,3.6,-4.7);
-seat('gemini',deskSet(T,3.9,-2.7,Math.PI/2,2.2,1.1,[geminiTex],0x5b7fd6,{sw:1.25}).userData.p,1.55);
-station('trade','③ Gemini 分析桌',3.9,3.1,-2.7);
+seat('caiwenji',person(T,.45,F,-3.85,0x9b7fd1,{rot:2.36,bun:true}),1.75);
+seat('zhurong',person(T,-2.5,F,-3.8,0xc0602f,{rot:Math.PI,bun:true}),1.75);
+station('trade','② 字幕機 · 蔡文姬',1.4,3.6,-4.7);
+seat('ganfuren',deskSet(T,3.9,-2.7,Math.PI/2,2.2,1.1,[geminiTex],0x5b7fd6,{sw:1.25}).userData.p,1.55);
+station('trade','③ Gemini 桌 · 甘夫人',3.9,3.1,-2.7);
 cyl(T,.16,.32,.8,0x5a3d2b,.5,F,0);cyl(T,1.3,1.3,.08,0xead9bf,.5,F+.8,0);
 const holo=sph(T,.18,mat(0xf2a541,{emissive:0xf2a541,emissiveIntensity:1.6}),.5,F+1.45,0);holo.castShadow=false;
-[['CEO',0xf2a541,{crown:true}],['分析',0x3aa6a0],['風控',0xe86f55],['策略',0x7fa77a],['技術',0x5b7fd6]].forEach((c,i)=>{const a=i/5*Math.PI*2+.35,x=.5+Math.sin(a)*1.85,z=Math.cos(a)*1.85,ry=Math.atan2(.5-x,-z);chair(T,x,z,ry,0x6b4a33).position.y=F;seat(['ceo','analyst','risk','strategy','tech'][i],person(T,x,F+.2,z,c[1],Object.assign({seated:true,rot:ry},c[2]||{})),c[2]?1.75:1.55);});
-station('trade','④ CEO 每日會議',.5,3.6,0);
-seat('trader',deskSet(T,2.6,3.2,0,3.6,1.1,candleTexes,0x3b3f52,{sw:1.05}).userData.p,1.55);
-station('trade','⑤ TradingView 模擬倉',2.6,3.2,3.2);
+[['諸葛亮',0xf2a541,{crown:true,hair:0x1a1210}],['黃月英',0x7fa77a,{bun:true}],['甄姬',0x3aa6a0,{bun:true}],['大喬',0x5b7fd6,{bun:true}],['星彩',0xe86f55,{bun:true}]].forEach((c,i)=>{const a=i/5*Math.PI*2+.35,x=.5+Math.sin(a)*1.85,z=Math.cos(a)*1.85,ry=Math.atan2(.5-x,-z);chair(T,x,z,ry,0x6b4a33).position.y=F;seat(['zhuge','huangyueying','zhenji','daqiao','xingcai'][i],person(T,x,F+.2,z,c[1],Object.assign({seated:true,rot:ry},c[2]||{})),c[2]?1.75:1.55);});
+station('trade','④ 經營會議 · 諸葛亮',.5,3.6,0);
+seat('mifuren',deskSet(T,2.6,3.2,0,3.6,1.1,candleTexes,0xc9a27a,{sw:1.05,bun:true}).userData.p,1.55);
+seat('sunshangxiang',person(T,4.85,F,2.9,0xd64545,{rot:-Math.PI/2,bun:true}),1.75);
+station('trade','⑤ 模擬倉 · 糜夫人／孫尚香',2.6,3.2,3.2);
 const dz=deskSet(T,-3.3,3.2,0,2.2,1.1,[reportTex],0xe58fb0,{bun:true,sw:1.15});
 seat('diaochan',dz.userData.p,1.6);
 [0,1,2,3].forEach(i=>box(dz,.5,.03,.36,0xffffff,.75,.86+i*.035,.15));
-station('trade','⑥ 貂蟬 彙整報告',-3.3,3.2,3.2);
+station('trade','⑥ 報告桌 · 貂蟬',-3.3,3.2,3.2);
 lamp(T,-4.8,-.6); plant(T,4.7,-4.7,.9); plant(T,-4.8,1.3,.75);
 
 /* boss */
@@ -336,9 +338,10 @@ const ed=new THREE.Group();ed.position.set(.3,F,-2.4);B.add(ed);
 box(ed,3.2,.1,1.4,0x5a3d2b,0,.78,0);box(ed,3.1,.78,.08,0x6b4a33,0,0,.6);box(ed,.1,.78,1.3,0x6b4a33,-1.5,0,0);box(ed,.1,.78,1.3,0x6b4a33,1.5,0,0);
 box(ed,.7,.04,.5,0x2f2f36,-.5,.88,-.1);
 const ph=new THREE.Group();ph.position.set(1.05,.88,.25);ph.rotation.x=-.12;ed.add(ph);box(ph,.18,.05,.18,0x222,0,0,-.05);box(ph,.58,1.0,.06,0x1b1b1f,0,.04,0);add(ph,new THREE.PlaneGeometry(.52,.94),screenMat(phoneTex),0,.54,.035,false);
-station('boss','推播手機 08:00 / 20:00',1.35,2.7,-2.15);
+station('boss','推播手機 · 小喬',1.35,2.7,-2.15);
 const bc=new THREE.Group();bc.position.set(.3,F,-3.75);B.add(bc);box(bc,.9,.5,.8,0x7a4a35,0,0,0);box(bc,.9,1.1,.18,0x7a4a35,0,.4,-.35);
 person(B,.3,F+.3,-3.6,0x34406b,{tie:true});
+seat('xiaoqiao',person(B,2.35,F,-1.3,0xf29bb5,{rot:-2.3,bun:true}),1.75);
 station('boss','你（投資人）',.3,2.7,-3.6);
 cyl(B,.55,.55,.06,0xead9bf,0,F+.42,2.3);cyl(B,.08,.2,.42,0x5a3d2b,0,F,2.3);
 [[-1.5,Math.PI/2],[1.5,-Math.PI/2]].forEach(a=>{const g=new THREE.Group();g.position.set(a[0],F,2.3);g.rotation.y=a[1];B.add(g);box(g,1.0,.45,.9,0xe9dcc6,0,0,0);box(g,1.0,.6,.2,0xe9dcc6,0,.45,-.38);box(g,.16,.35,.9,0xe9dcc6,-.5,.45,0);box(g,.16,.35,.9,0xe9dcc6,.5,.45,0);});
@@ -420,7 +423,7 @@ stations.forEach(s=>{const el=document.createElement('div');el.className='st';el
 /* ---------------- UI ---------------- */
 const panel=$('#panel'),tabs=$('#tabs');
 let selected=null;
-function staffHtml(k){if(!STATUS||(k!=='trade'&&k!=='game'))return '';const keys=k==='game'?['robot']:['ceo','analyst','risk','strategy','tech','gemini','whisper','trader','diaochan'];
+function staffHtml(k){const KEYS={trade:['zhuge','huangyueying','zhenji','daqiao','xingcai','zhurong','caiwenji','ganfuren','mifuren','sunshangxiang','diaochan'],boss:['xiaoqiao'],game:['robot']};if(!STATUS||!KEYS[k])return '';const keys=KEYS[k];
   const rows=(STATUS.staff||[]).filter(s=>keys.includes(s.seat));if(!rows.length)return '';
   return `<div class="staff"><h3>員工動態${STATUS.demo?'（示範）':''}</h3>${rows.map(s=>{const st=STATE_TXT[s.state]?s.state:'working';return `<div><i style="background:${STATE_COLOR[st]}"></i><b>${esc(s.name||SEAT_NAME[s.seat])}</b><span>${esc(s.task||'')}</span></div>`;}).join('')}</div>`;}
 function esc(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
@@ -464,15 +467,16 @@ canvas.addEventListener('pointerup',e=>{if(!down)return;const moved=Math.hypot(e
 canvas.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const k=pickAt(e.clientX,e.clientY);if(k!==hovered){hovered=k;canvas.classList.toggle('hover',!!k);Object.keys(R).forEach(r=>{if(r!==selected)R[r].floor.emissive.set(r===k?0x1a1006:0x000000);});}});
 
 /* ---------------- live staff status ---------------- */
-const SEAT_NAME={ceo:'Claude CEO',analyst:'分析師',risk:'風控',strategy:'策略',tech:'技術',gemini:'Gemini 分析員',whisper:'轉錄機',trader:'交易員',diaochan:'貂蟬',robot:'選卡機器人'};
+const SEAT_NAME={zhuge:'諸葛亮 CEO',diaochan:'貂蟬 主管',huangyueying:'黃月英 策略軍師',zhenji:'甄姬 直播分析',xiaoqiao:'小喬 推播',mifuren:'糜夫人 模擬倉',sunshangxiang:'孫尚香 盯價位',caiwenji:'蔡文姬 字幕',zhurong:'祝融夫人 直播偵測',ganfuren:'甘夫人 Gemini',daqiao:'大喬 對帳',xingcai:'星彩 表單追蹤',robot:'選卡機器人'};
 const STATE_TXT={working:'工作中',meeting:'開會中',idle:'待命',error:'出狀況'};
 const STATE_COLOR={working:'#3ccf91',meeting:'#f2a541',idle:'#b9ada0',error:'#ef5a5a'};
 const DEMO={demo:true,updated:null,staff:[
- {seat:'ceo',state:'meeting',task:'主持會議：檢討今天的策略'},{seat:'analyst',state:'meeting',task:'比對 Sam 最新一集的進場點'},
- {seat:'risk',state:'meeting',task:'檢查槓桿與單筆風險'},{seat:'strategy',state:'meeting',task:'提案：哪個策略要優化'},
- {seat:'tech',state:'working',task:'調整 TradingView 腳本參數'},{seat:'gemini',state:'working',task:'重讀最新一集直播'},
- {seat:'whisper',state:'working',task:'轉錄直播音檔'},{seat:'trader',state:'idle',task:'等待進場訊號'},
- {seat:'diaochan',state:'working',task:'彙整晚報'},{seat:'robot',state:'working',task:'自動連刷中'}]};
+ {seat:'zhuge',state:'meeting',task:'經營會議中：KPI、策略辯論、派工'},{seat:'huangyueying',state:'meeting',task:'回測中：加碼後停損上移'},
+ {seat:'zhenji',state:'meeting',task:'拆解直播招式'},{seat:'daqiao',state:'idle',task:'今天簡報已完成'},
+ {seat:'xingcai',state:'idle',task:'下次追蹤 明天 09:05'},{seat:'ganfuren',state:'idle',task:'下次 今天 21:35'},
+ {seat:'caiwenji',state:'working',task:'轉錄直播逐字稿'},{seat:'zhurong',state:'idle',task:'下次巡邏 今天 21:35'},
+ {seat:'mifuren',state:'idle',task:'下次跑模擬倉'},{seat:'sunshangxiang',state:'working',task:'每 5 分鐘盯 Sam 價位'},
+ {seat:'diaochan',state:'idle',task:'下次週報 週日 20:41'},{seat:'xiaoqiao',state:'idle',task:'下次推播 今天 20:00'}]};
 let STATUS=null;const bubbles={};
 Object.keys(seats).forEach(k=>{const el=document.createElement('div');el.className='bub hide';el.innerHTML='<b><i></i><em></em></b><span></span>';labelsEl.appendChild(el);bubbles[k]=el;});
 function ago(iso){const m=Math.round((Date.now()-new Date(iso).getTime())/60000);if(isNaN(m))return null;return m;}
@@ -487,7 +491,7 @@ function applyStatus(st){STATUS=st;const by={};(st.staff||[]).forEach(s=>{if(s&&
   else{const m=st.updated?ago(st.updated):null;if(m===null){txt.textContent='尚未收到員工狀態';}
     else if(m>120){live.className='stale';txt.textContent='最後更新 '+(m>=1440?Math.floor(m/1440)+' 天':Math.floor(m/60)+' 小時')+'前';}
     else{live.className='ok';txt.textContent='即時 · '+(m<1?'剛剛':m+' 分鐘前')+'更新';}}
-  if(selected==='trade'||selected==='game')renderPanel(selected);}
+  if(selected==='trade'||selected==='game'||selected==='boss')renderPanel(selected);}
 async function loadStatus(){try{const r=await fetch('status.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;applyStatus(await r.json());}catch(e){if(!STATUS||STATUS.demo)applyStatus(DEMO);}}
 loadStatus();setInterval(loadStatus,60000);setInterval(()=>{if(STATUS)applyStatus(STATUS);},30000);
 
@@ -516,7 +520,7 @@ function tick(){const dt=Math.min(clock.getDelta(),.05),t=clock.elapsedTime;
   const w=innerWidth,h=innerHeight;
   labels.forEach(l=>{v.copy(l.pos).project(camera);const x=(v.x*.5+.5)*w,y=(-v.y*.5+.5)*h;l.el.style.transform=`translate(${x}px,${y}px) translate(-50%,-100%)`;if(l.room){l.el.classList.toggle('on',selected===l.room);}else{l.el.style.opacity=selected&&selected!=='core'?.55:1;}});
   const mini=camera.zoom<1.4;
-  Object.keys(bubbles).forEach(k=>{bubbles[k].classList.toggle('mini',mini);seats[k].obj.getWorldPosition(v);v.y+=seats[k].dy;v.project(camera);const x=(v.x*.5+.5)*w,y=(-v.y*.5+.5)*h;bubbles[k].style.transform=`translate(${x}px,${y}px) translate(-50%,-100%)`;});
+  Object.keys(bubbles).forEach(k=>{bubbles[k].classList.toggle('mini',mini||bubbles[k].classList.contains('idle'));seats[k].obj.getWorldPosition(v);v.y+=seats[k].dy;v.project(camera);const x=(v.x*.5+.5)*w,y=(-v.y*.5+.5)*h;bubbles[k].style.transform=`translate(${x}px,${y}px) translate(-50%,-100%)`;});
   requestAnimationFrame(tick);}
 tick();
 })();
