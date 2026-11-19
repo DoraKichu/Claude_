@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:01:01+08:00",
+ "updated": "2026-11-19T22:06:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -19,7 +19,7 @@
   {
    "seat": "zhenji",
    "state": "idle",
-   "task": "待分析 12 集 · 下次 週日 11:47"
+   "task": "待分析 13 集 · 下次 週日 11:47"
   },
   {
    "seat": "xiaoqiao",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "working",
-   "task": "警報！BTC 現價 64004.8 剛穿越 Sam 價位"
+   "task": "警報！BTC 現價 63989.5 剛穿越 Sam 價位"
   },
   {
    "seat": "caiwenji",
@@ -53,8 +53,8 @@
   },
   {
    "seat": "daqiao",
-   "state": "error",
-   "task": "發現異常：紀錄檔有錯誤：transcribe.log: 1"
+   "state": "working",
+   "task": "寫每日簡報、檢查系統異常"
   },
   {
    "seat": "xingcai",
