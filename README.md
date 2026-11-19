@@ -1,6 +1,6 @@
 # 我的 AI 3D 總部
 
-打開網頁：https://dorakichu.github.io/claude_/
+打開網頁：https://dorakichu.github.io/Claude_/
 
 一間等角視角的 3D 微縮辦公室，裡面有四間工作室：交易作戰室、投資人辦公室、製程班表工坊、遊戲休息區。中間是 Claude 核心。員工頭上的對話框會顯示他們現在在做什麼，網頁每分鐘自動更新一次。
 
