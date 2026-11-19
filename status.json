@@ -1,4 +1,65 @@
 {
-  "updated": null,
-  "staff": []
+ "updated": "2026-11-19T20:21:32+08:00",
+ "staff": [
+  {
+   "seat": "zhuge",
+   "state": "idle",
+   "task": "下次經營會議 明天 11:37"
+  },
+  {
+   "seat": "diaochan",
+   "state": "idle",
+   "task": "下次週報 週日 20:41"
+  },
+  {
+   "seat": "huangyueying",
+   "state": "idle",
+   "task": "待辦：⓪-5 0.786×深度"
+  },
+  {
+   "seat": "zhenji",
+   "state": "idle",
+   "task": "待分析 11 集 · 下次 週日 11:47"
+  },
+  {
+   "seat": "xiaoqiao",
+   "state": "idle",
+   "task": "下次推播 明天 08:00"
+  },
+  {
+   "seat": "mifuren",
+   "state": "working",
+   "task": "更新行情、跑 4 個模擬帳戶"
+  },
+  {
+   "seat": "sunshangxiang",
+   "state": "working",
+   "task": "盯盤中：1 個幣靠近 Sam 價位"
+  },
+  {
+   "seat": "caiwenji",
+   "state": "working",
+   "task": "轉錄直播逐字稿 104/313 集"
+  },
+  {
+   "seat": "zhurong",
+   "state": "idle",
+   "task": "發現 2 集新直播，已交給甘夫人 · 下次 今天 21:35"
+  },
+  {
+   "seat": "ganfuren",
+   "state": "idle",
+   "task": "2 集排隊中 · 下次 今天 21:35"
+  },
+  {
+   "seat": "daqiao",
+   "state": "error",
+   "task": "發現異常：紀錄檔有錯誤：transcribe.log: 1"
+  },
+  {
+   "seat": "xingcai",
+   "state": "idle",
+   "task": "下次追蹤 明天 09:05"
+  }
+ ]
 }
