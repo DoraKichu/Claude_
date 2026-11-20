@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:31:01+08:00",
+ "updated": "2026-11-20T08:01:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -23,8 +23,8 @@
   },
   {
    "seat": "xiaoqiao",
-   "state": "idle",
-   "task": "下次推播 今天 08:00"
+   "state": "working",
+   "task": "整理模擬倉成果，推播到手機"
   },
   {
    "seat": "mifuren",
@@ -34,12 +34,12 @@
   {
    "seat": "sunshangxiang",
    "state": "working",
-   "task": "盯盤中：1 個幣靠近 Sam 價位"
+   "task": "每 5 分鐘盯 Sam 價位"
   },
   {
    "seat": "caiwenji",
    "state": "working",
-   "task": "轉錄直播逐字稿 130/313 集"
+   "task": "轉錄直播逐字稿 131/313 集"
   },
   {
    "seat": "zhurong",
