@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T08:21:01+08:00",
+ "updated": "2026-11-20T08:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -28,13 +28,13 @@
   },
   {
    "seat": "mifuren",
-   "state": "working",
-   "task": "更新行情、跑 4 個模擬帳戶"
+   "state": "idle",
+   "task": "下次 今天 12:15"
   },
   {
    "seat": "sunshangxiang",
    "state": "working",
-   "task": "盯盤中：1 個幣靠近 Sam 價位"
+   "task": "每 5 分鐘盯 Sam 價位"
   },
   {
    "seat": "caiwenji",
