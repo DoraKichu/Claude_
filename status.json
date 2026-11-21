@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:16:01+08:00",
+ "updated": "2026-11-21T09:26:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "working",
-   "task": "每 5 分鐘盯 Sam 價位"
+   "task": "盯盤中：1 個幣靠近 Sam 價位"
   },
   {
    "seat": "caiwenji",
@@ -58,8 +58,8 @@
   },
   {
    "seat": "xingcai",
-   "state": "working",
-   "task": "追蹤 2140.tw 目標價表單"
+   "state": "idle",
+   "task": "下次追蹤 明天 09:05"
   }
  ]
 }
