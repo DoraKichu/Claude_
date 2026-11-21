@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T17:36:02+08:00",
+ "updated": "2026-11-21T17:41:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
    "state": "idle",
-   "task": "下次經營會議 今天 17:37"
+   "task": "下次經營會議 明天 11:37"
   },
   {
    "seat": "diaochan",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "working",
-   "task": "盯盤中：2 個幣靠近 Sam 價位"
+   "task": "警報！ADA 現價 0.1389 剛穿越 Sam 價位"
   },
   {
    "seat": "caiwenji",
