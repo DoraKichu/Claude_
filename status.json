@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:01:02+08:00",
+ "updated": "2026-11-23T00:16:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -28,8 +28,8 @@
   },
   {
    "seat": "mifuren",
-   "state": "idle",
-   "task": "下次 今天 00:15"
+   "state": "working",
+   "task": "更新行情、跑 4 個模擬帳戶"
   },
   {
    "seat": "sunshangxiang",
