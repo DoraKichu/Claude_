@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:41:02+08:00",
+ "updated": "2026-11-22T09:56:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -19,7 +19,7 @@
   {
    "seat": "zhenji",
    "state": "idle",
-   "task": "待分析 13 集 · 下次 今天 11:47"
+   "task": "待分析 14 集 · 下次 今天 11:47"
   },
   {
    "seat": "xiaoqiao",
@@ -53,8 +53,8 @@
   },
   {
    "seat": "daqiao",
-   "state": "error",
-   "task": "發現異常：紀錄檔有錯誤：transcribe.log: 1"
+   "state": "working",
+   "task": "寫每日簡報、檢查系統異常"
   },
   {
    "seat": "xingcai",
