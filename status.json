@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:01:01+08:00",
+ "updated": "2026-11-22T10:06:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -43,18 +43,18 @@
   },
   {
    "seat": "zhurong",
-   "state": "working",
-   "task": "巡邏 YouTube，找新直播"
+   "state": "idle",
+   "task": "下次巡邏 今天 21:35"
   },
   {
    "seat": "ganfuren",
-   "state": "working",
-   "task": "用 Gemini 看直播畫面、抓價位"
+   "state": "idle",
+   "task": "下次 今天 21:35"
   },
   {
    "seat": "daqiao",
-   "state": "working",
-   "task": "寫每日簡報、檢查系統異常"
+   "state": "error",
+   "task": "發現異常：紀錄檔有錯誤：transcribe.log: 1"
   },
   {
    "seat": "xingcai",
