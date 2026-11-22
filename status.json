@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:26:02+08:00",
+ "updated": "2026-11-22T09:36:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -43,13 +43,13 @@
   },
   {
    "seat": "zhurong",
-   "state": "idle",
-   "task": "發現 1 集新直播，已交給甘夫人 · 下次 今天 09:35"
+   "state": "working",
+   "task": "巡邏 YouTube，找新直播"
   },
   {
    "seat": "ganfuren",
-   "state": "idle",
-   "task": "1 集排隊中 · 下次 今天 09:35"
+   "state": "working",
+   "task": "用 Gemini 看直播畫面、抓價位"
   },
   {
    "seat": "daqiao",
