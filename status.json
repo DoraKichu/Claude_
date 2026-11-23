@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-23T21:11:01+08:00",
+ "updated": "2026-11-23T21:36:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
-   "state": "meeting",
-   "task": "經營會議中：KPI、策略辯論、派工"
+   "state": "idle",
+   "task": "下次經營會議 明天 11:37"
   },
   {
    "seat": "diaochan",
@@ -43,18 +43,18 @@
   },
   {
    "seat": "zhurong",
-   "state": "idle",
-   "task": "下次巡邏 今天 21:35"
+   "state": "working",
+   "task": "巡邏 YouTube，找新直播"
   },
   {
    "seat": "ganfuren",
-   "state": "idle",
-   "task": "下次 今天 21:35"
+   "state": "working",
+   "task": "用 Gemini 看直播畫面、抓價位"
   },
   {
    "seat": "daqiao",
-   "state": "error",
-   "task": "發現異常：紀錄檔有錯誤：transcribe.log: 2"
+   "state": "working",
+   "task": "寫每日簡報、檢查系統異常"
   },
   {
    "seat": "xingcai",
