@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T11:41:01+08:00",
+ "updated": "2026-11-24T11:56:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
-   "state": "idle",
-   "task": "下次經營會議 今天 17:37"
+   "state": "meeting",
+   "task": "經營會議中：KPI、策略辯論、派工"
   },
   {
    "seat": "diaochan",
@@ -13,13 +13,13 @@
   },
   {
    "seat": "huangyueying",
-   "state": "idle",
-   "task": "待辦：⓪-0 用 Whisper 逐字稿直接分析直播"
+   "state": "working",
+   "task": "回測中：B停利0786"
   },
   {
    "seat": "zhenji",
-   "state": "idle",
-   "task": "待分析 14 集 · 下次 週日 11:47"
+   "state": "working",
+   "task": "拆解直播招式：20261121"
   },
   {
    "seat": "xiaoqiao",
