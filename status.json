@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T12:31:01+08:00",
+ "updated": "2026-11-24T12:41:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
-   "state": "meeting",
-   "task": "經營會議中：KPI、策略辯論、派工"
+   "state": "idle",
+   "task": "下次經營會議 今天 17:37"
   },
   {
    "seat": "diaochan",
@@ -38,8 +38,8 @@
   },
   {
    "seat": "caiwenji",
-   "state": "idle",
-   "task": "暫停中，已完成 307/313 集"
+   "state": "working",
+   "task": "轉錄直播逐字稿 307/313 集"
   },
   {
    "seat": "zhurong",
