@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:41:01+08:00",
+ "updated": "2026-11-25T01:51:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -18,8 +18,8 @@
   },
   {
    "seat": "zhenji",
-   "state": "working",
-   "task": "拆解直播招式：20261101"
+   "state": "idle",
+   "task": "待分析 12 集 · 下次 週日 11:47"
   },
   {
    "seat": "xiaoqiao",
