@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:11:01+08:00",
+ "updated": "2026-11-24T13:41:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -38,8 +38,8 @@
   },
   {
    "seat": "caiwenji",
-   "state": "idle",
-   "task": "暫停中，已完成 307/313 集"
+   "state": "working",
+   "task": "轉錄直播逐字稿 307/313 集"
   },
   {
    "seat": "zhurong",
