@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:11:01+08:00",
+ "updated": "2026-11-25T01:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "idle",
-   "task": "待辦：⓪-0 用 Whisper 逐字稿直接分析直播"
+   "state": "working",
+   "task": "回測中：B多單相對BTC強弱"
   },
   {
    "seat": "zhenji",
