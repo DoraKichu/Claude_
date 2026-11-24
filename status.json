@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:41:01+08:00",
+ "updated": "2026-11-24T18:46:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,13 +13,13 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：B多單BTC200MA"
+   "state": "idle",
+   "task": "待辦：⓪-0 用 Whisper 逐字稿直接分析直播"
   },
   {
    "seat": "zhenji",
-   "state": "working",
-   "task": "拆解直播招式：20261101"
+   "state": "idle",
+   "task": "待分析 13 集 · 下次 週日 11:47"
   },
   {
    "seat": "xiaoqiao",
