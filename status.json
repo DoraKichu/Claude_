@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:51:01+08:00",
+ "updated": "2026-11-25T03:06:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -33,8 +33,8 @@
   },
   {
    "seat": "sunshangxiang",
-   "state": "working",
-   "task": "每 5 分鐘盯 Sam 價位"
+   "state": "error",
+   "task": "已 21 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
