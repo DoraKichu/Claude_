@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:26:02+08:00",
+ "updated": "2026-11-25T22:31:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：A_BTC空頭濾網"
+   "state": "idle",
+   "task": "待辦：② 強弱移動停利"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 1181 分鐘沒抓到價格"
+   "task": "已 1186 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
