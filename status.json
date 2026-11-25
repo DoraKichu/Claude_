@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T18:26:01+08:00",
+ "updated": "2026-11-25T18:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
-   "state": "meeting",
-   "task": "經營會議中：KPI、策略辯論、派工"
+   "state": "idle",
+   "task": "下次經營會議 明天 11:37"
   },
   {
    "seat": "diaochan",
@@ -18,8 +18,8 @@
   },
   {
    "seat": "zhenji",
-   "state": "working",
-   "task": "拆解直播招式：20260711"
+   "state": "idle",
+   "task": "下次上班 週日 11:47"
   },
   {
    "seat": "xiaoqiao",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 941 分鐘沒抓到價格"
+   "task": "已 946 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
