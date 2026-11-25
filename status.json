@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T23:46:01+08:00",
+ "updated": "2026-11-26T00:16:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
    "state": "idle",
-   "task": "下次經營會議 明天 11:37"
+   "task": "下次經營會議 今天 11:37"
   },
   {
    "seat": "diaochan",
@@ -24,32 +24,32 @@
   {
    "seat": "xiaoqiao",
    "state": "idle",
-   "task": "下次推播 明天 08:00"
+   "task": "下次推播 今天 08:00"
   },
   {
    "seat": "mifuren",
-   "state": "idle",
-   "task": "下次 明天 00:15"
+   "state": "working",
+   "task": "更新行情、跑 4 個模擬帳戶"
   },
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 1261 分鐘沒抓到價格"
+   "task": "已 1291 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
-   "state": "working",
-   "task": "轉錄直播逐字稿 307/313 集"
+   "state": "idle",
+   "task": "暫停中，已完成 307/313 集"
   },
   {
    "seat": "zhurong",
    "state": "idle",
-   "task": "下次巡邏 明天 09:35"
+   "task": "下次巡邏 今天 09:35"
   },
   {
    "seat": "ganfuren",
    "state": "idle",
-   "task": "下次 明天 09:35"
+   "task": "下次 今天 09:35"
   },
   {
    "seat": "daqiao",
@@ -59,7 +59,7 @@
   {
    "seat": "xingcai",
    "state": "idle",
-   "task": "下次追蹤 明天 09:05"
+   "task": "下次追蹤 今天 09:05"
   }
  ]
 }
