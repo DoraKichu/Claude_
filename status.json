@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:26:01+08:00",
+ "updated": "2026-11-25T10:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -18,8 +18,8 @@
   },
   {
    "seat": "zhenji",
-   "state": "working",
-   "task": "拆解直播招式：20260829"
+   "state": "idle",
+   "task": "待分析 6 集 · 下次 週日 11:47"
   },
   {
    "seat": "xiaoqiao",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 461 分鐘沒抓到價格"
+   "task": "已 466 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
