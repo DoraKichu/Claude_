@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:41:01+08:00",
+ "updated": "2026-11-26T18:46:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：日線右肩低接_加碼夾層"
+   "state": "idle",
+   "task": "待辦：⑥-2 BTC 日線盤整（非多頭也非空頭，定義同 add_be.btc_regi…"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 2396 分鐘沒抓到價格"
+   "task": "已 2401 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
