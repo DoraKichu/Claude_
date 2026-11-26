@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T06:26:01+08:00",
+ "updated": "2026-11-27T06:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：復刻③空單限TD9"
+   "state": "idle",
+   "task": "待辦：主流幣日線單獨測：200MA 多空過濾＋分批出場"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 3101 分鐘沒抓到價格"
+   "task": "已 3106 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
