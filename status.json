@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T17:41:01+08:00",
+ "updated": "2026-11-26T17:46:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
-   "state": "idle",
-   "task": "下次經營會議 明天 11:37"
+   "state": "meeting",
+   "task": "經營會議中：KPI、策略辯論、派工"
   },
   {
    "seat": "diaochan",
@@ -14,7 +14,7 @@
   {
    "seat": "huangyueying",
    "state": "working",
-   "task": "回測中：WM九轉濾網"
+   "task": "回測中：日線右肩低接_加碼夾層"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 2336 分鐘沒抓到價格"
+   "task": "已 2341 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
