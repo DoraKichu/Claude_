@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:26:01+08:00",
+ "updated": "2026-11-27T01:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "idle",
-   "task": "待辦：⑥-3⑥ 夾層持倉上限 5→7，驗證 5 單不是剛好湊到；目標回撤 ≤15%、P…"
+   "state": "working",
+   "task": "回測中：夾層持倉上限7"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 2801 分鐘沒抓到價格"
+   "task": "已 2806 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
