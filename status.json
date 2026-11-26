@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:26:01+08:00",
+ "updated": "2026-11-26T09:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "idle",
-   "task": "待辦：④【心法 Q1】日線頭肩底／W 底：「頸線觸發進場」vs「右肩低接」，停損右肩、…"
+   "state": "working",
+   "task": "回測中：日線頭肩底W底_頸線vs右肩"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 1841 分鐘沒抓到價格"
+   "task": "已 1846 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
