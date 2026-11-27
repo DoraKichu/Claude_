@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:21:01+08:00",
+ "updated": "2026-11-27T10:26:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：主流幣日線200MA"
+   "state": "idle",
+   "task": "待辦：【心法 Q2】Sam 表單 116 筆取消單：若掛單當下直接市價進場會虧多少"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 3336 分鐘沒抓到價格"
+   "task": "已 3341 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
