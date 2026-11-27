@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:26:01+08:00",
+ "updated": "2026-11-27T17:31:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "idle",
-   "task": "待辦：進場濾網"
+   "state": "working",
+   "task": "回測中：大盤濾網v2_進場濾網"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 3761 分鐘沒抓到價格"
+   "task": "已 3766 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
