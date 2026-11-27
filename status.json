@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:01:01+08:00",
+ "updated": "2026-11-27T09:06:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 3256 分鐘沒抓到價格"
+   "task": "已 3261 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
@@ -58,8 +58,8 @@
   },
   {
    "seat": "xingcai",
-   "state": "idle",
-   "task": "下次追蹤 今天 09:05"
+   "state": "working",
+   "task": "追蹤 2140.tw 目標價表單"
   }
  ]
 }
