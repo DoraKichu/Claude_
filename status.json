@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:26:02+08:00",
+ "updated": "2026-11-27T12:31:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -28,13 +28,13 @@
   },
   {
    "seat": "mifuren",
-   "state": "working",
-   "task": "更新行情、跑 4 個模擬帳戶"
+   "state": "idle",
+   "task": "下次 今天 16:15"
   },
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 3461 分鐘沒抓到價格"
+   "task": "已 3466 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
