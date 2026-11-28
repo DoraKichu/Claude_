@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-28T23:56:01+08:00",
+ "updated": "2026-11-29T00:01:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
    "state": "idle",
-   "task": "下次經營會議 明天 11:37"
+   "task": "下次經營會議 今天 11:37"
   },
   {
    "seat": "diaochan",
    "state": "idle",
-   "task": "下次週報 明天 20:41"
+   "task": "下次週報 今天 20:41"
   },
   {
    "seat": "huangyueying",
    "state": "idle",
-   "task": "下次上班 明天 15:43"
+   "task": "下次上班 今天 15:43"
   },
   {
    "seat": "zhenji",
    "state": "idle",
-   "task": "下次上班 明天 11:47"
+   "task": "下次上班 今天 11:47"
   },
   {
    "seat": "xiaoqiao",
    "state": "idle",
-   "task": "下次推播 明天 08:00"
+   "task": "下次推播 今天 08:00"
   },
   {
    "seat": "mifuren",
    "state": "idle",
-   "task": "下次 明天 00:15"
+   "task": "下次 今天 00:15"
   },
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 5591 分鐘沒抓到價格"
+   "task": "已 5596 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
@@ -44,12 +44,12 @@
   {
    "seat": "zhurong",
    "state": "idle",
-   "task": "發現 1 集新直播，已交給甘夫人 · 下次 明天 09:35"
+   "task": "發現 1 集新直播，已交給甘夫人 · 下次 今天 09:35"
   },
   {
    "seat": "ganfuren",
    "state": "idle",
-   "task": "1 集排隊中 · 下次 明天 09:35"
+   "task": "1 集排隊中 · 下次 今天 09:35"
   },
   {
    "seat": "daqiao",
@@ -59,7 +59,7 @@
   {
    "seat": "xingcai",
    "state": "idle",
-   "task": "下次追蹤 明天 09:05"
+   "task": "下次追蹤 今天 09:05"
   }
  ]
 }
