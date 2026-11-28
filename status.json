@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T18:46:01+08:00",
+ "updated": "2026-11-28T18:51:01+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -13,8 +13,8 @@
   },
   {
    "seat": "huangyueying",
-   "state": "working",
-   "task": "回測中：日線右肩低接_同日選擇規則"
+   "state": "idle",
+   "task": "下次上班 明天 15:43"
   },
   {
    "seat": "zhenji",
@@ -34,7 +34,7 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 5281 分鐘沒抓到價格"
+   "task": "已 5286 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
