@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T23:06:02+08:00",
+ "updated": "2026-11-28T23:11:02+08:00",
  "staff": [
   {
    "seat": "zhuge",
@@ -34,12 +34,12 @@
   {
    "seat": "sunshangxiang",
    "state": "error",
-   "task": "已 5541 分鐘沒抓到價格"
+   "task": "已 5546 分鐘沒抓到價格"
   },
   {
    "seat": "caiwenji",
-   "state": "working",
-   "task": "轉錄直播逐字稿 307/313 集"
+   "state": "idle",
+   "task": "暫停中，已完成 307/313 集"
   },
   {
    "seat": "zhurong",
